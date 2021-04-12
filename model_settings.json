@@ -1,3 +1,5 @@
 {
-  "load": "CatBoostClassifier().load_model(fname=model)",
-  "import": ["from catboost import CatBoostClassifier"]
+  "name": "sklearn",
+  "load": "pickle.load(file=open(model, \"rb\"))",
+  "import": ["import pickle"]
+}
