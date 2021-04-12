@@ -1,4 +1,3 @@
 {
   "load": "CatBoostClassifier().load_model(fname=model)",
   "import": ["from catboost import CatBoostClassifier"]
-}
