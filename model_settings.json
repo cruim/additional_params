@@ -1,3 +1,5 @@
 {
+  "name": "catboost",
   "load": "CatBoostClassifier().load_model(fname=model)",
-  "import": ["from catboost import CatBoostClassifier"]
+  "import": [ "from catboost import CatBoostClassifier"]
+}
