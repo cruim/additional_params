@@ -1,0 +1,10 @@
+artifact_path: catboost_model_custom
+flavors:
+  python_function:
+    cloudpickle_version: 1.6.0
+    env: conda.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.9.1
+run_id: e63ccd0d02de47a68934b085b80fea42
+utc_time_created: '2021-04-20 09:02:44.479013'
